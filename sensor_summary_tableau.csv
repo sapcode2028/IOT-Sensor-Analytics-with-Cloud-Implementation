@@ -1,0 +1,5 @@
+sensor_id,reading_count,avg_temp_c,avg_humidity_pct,avg_battery_pct
+SENS_01,372,25.86,61.46,72.51
+SENS_02,374,27.01,59.49,73.74
+SENS_03,374,28.28,57.22,72.78
+SENS_04,375,29.46,55.27,71.34

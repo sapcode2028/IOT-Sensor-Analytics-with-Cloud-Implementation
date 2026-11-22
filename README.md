@@ -1,5 +1,7 @@
 # IoT Sensor Telemetry Analytics Pipeline (AWS S3 → Aurora PostgreSQL → Tableau Public)
 
+PUBLISHED LINK: https://public.tableau.com:9443/views/IoTSensorAnalytics/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
 An end-to-end IoT sensor analytics project that ingests telemetry data into Amazon S3, loads and queries cleaned records in Amazon Aurora PostgreSQL (`database-2` in `eu-north-1`), exports curated CSV extracts, and visualizes trends and sensor comparisons in Tableau Public.
 
 ## Architecture & Workflow
@@ -22,4 +24,3 @@ iot-aws-analytics/
 ├── daily_sensor_trends_tableau.csv# Daily sensor trend export for Tableau Public[cite: 1]
 └── README.md
 
-PUBBISHED LINK: https://public.tableau.com:9443/views/IoTSensorAnalytics/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
